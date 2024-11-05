@@ -1,0 +1,1040 @@
+/*HOME PAGE. HTML*/
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="homepage.css" />
+    <title>Ticket Booking</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <h1>Easybus.com</h1>
+      </div>
+      <div class="links">
+        <div class="link" data-aos="fade-up" data-aos-duration="1200">
+          <a href="homepage.html" style="text-decoration: none;">Home</a>
+        </div>
+        <div
+          class="link"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+          data-aos-delay="100"
+        >
+          <a href="about.html" style="text-decoration: none;">About</a>
+        </div>
+        <div
+          class="link"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+          data-aos-delay="200"
+        >
+       <a href="help page.html" style="text-decoration: none;">Help</a>
+        </div>
+      </div>
+      <div class="buttons">
+        <a href="login.html"><button
+          data-aos="fade-up"
+          data-aos-duration="1200"
+          data-aos-delay="800"
+        >
+          Login</button>
+          </a>
+        
+        <a href="sign in .html"><button
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-delay="1200"
+        >
+          Sign in
+        </button></a>
+      </div>
+    </nav>
+    <section>
+      <div class="content">
+        <h1 data-aos="fade-right" data-aos-duration="2" data-aos-delay="900">
+          Your Safe Travel Journey Is Our Main Goal
+        </h1>
+        <p data-aos="fade-left" data-aos-duration="2000" data-aos-delay="1000">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+          molestias, deleniti eaque culpa.
+        </p>
+        <a href="ticket booking page.html"><button
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+          data-aos-delay="1200"
+        >
+          GET YOUR TICKET
+        </button></a>
+      </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
+
+
+
+
+/*HOME PAGE .CSS*/
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.logo h1{
+    font-size: 3rem;
+    text-shadow: 0 0 7px white;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+nav .logo{
+    font-size: 1.5rem;
+}
+
+nav .links {
+    display: flex;
+}
+
+nav .links a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 10px;
+}
+
+
+
+
+nav .buttons{
+    width: 250px;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .buttons button{
+    margin: 0 5px;
+    width: 60px;
+    height: 5vh;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(7,113,219);
+    transition: 0.2s linear;
+}
+
+.buttons button:hover{
+    color: rgb(7,113,219);
+    background-color: transparent;
+    border: 2px solid rgb(7,113,219);
+    box-shadow: 0 0 10px 4px rgb(7,113,219);
+}
+
+section{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    width: 40%;
+    text-align: center;
+    color: white;
+}
+
+.content h1{
+    font-size: 3rem;
+    text-shadow: 0 0 7px white;
+}
+
+
+.content p{
+    width: 60%;
+    margin: 20px 20%;
+}
+
+.content button{
+width: 40%;
+height: 7vh;
+border-radius: 10px;
+background: rgb(7,113,219);    
+border: none;
+outline: none;
+color: white;
+cursor: pointer;
+font-size: 1.2rem;
+font-weight: 700;
+transition: 0.2s linear;
+}
+
+.content button:hover{
+    scale: 1.1;
+    font-size: 1.3rem;
+    background-color: transparent;
+    backdrop-filter: brightness(40%);
+    color: rgb(7,113,219);
+    border: 1px solid rgb(7,113,219);
+    box-shadow: 0 0 10px 3px rgb(7,113,219);
+}
+
+
+/*ABOUT PAGE  . HTML*/
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - EasyBus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .header-image {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin: 0;
+            color: #007bff;
+        }
+        h2 {
+            font-size: 1.8em;
+            font-weight: bold;
+            margin: 20px 0 10px;
+            color: #333;
+        }
+        p {
+            font-size: 1em;
+            line-height: 1.6;
+            margin: 15px 0;
+        }
+        .features {
+            text-align: left;
+            margin-top: 20px;
+        }
+        .features li {
+            margin: 10px 0;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="aboutimg.png" alt="EasyBus Logo" class="header-image">
+        <h1>About Us</h1>
+        <h2>Welcome to EasyBus - Your One-Stop Solution for Bus Travel</h2>
+        <p>
+            EasyBus is a newly launched online bus booking platform designed to simplify the way you travel by bus. Our mission is to provide an easy, reliable, and accessible way for you to book bus tickets, plan trips, and enjoy hassle-free journeys. Whether you’re commuting, going on a weekend getaway, or exploring new destinations, EasyBus is here to make your travel experience as smooth as possible.
+        </p>
+        <h2>Why Choose EasyBus?</h2>
+        <p>
+            We understand that travel planning can be time-consuming and stressful. That's why we have created EasyBus to offer a seamless experience from booking to boarding. With EasyBus, you get access to a wide range of bus operators, route options, and the convenience of booking from anywhere at any time.
+        </p>
+        <div class="features">
+            <h2>Our Key Features</h2>
+            <ul>
+                <li><strong>Easy Booking:</strong> Book bus tickets in just a few clicks on our user-friendly platform.</li>
+                <li><strong>Wide Network:</strong> Choose from a large network of bus operators and routes across the country.</li>
+                <li><strong>Secure Payments:</strong> Safe and secure payment options for a worry-free booking experience.</li>
+                <li><strong>24/7 Customer Support:</strong> Get assistance any time you need it, with our dedicated support team.</li>
+                <li><strong>Real-Time Tracking:</strong> Stay updated on your bus location and arrival times with our live tracking feature.</li>
+                <li><strong>Discounts and Offers:</strong> Enjoy exclusive deals and discounts on your favorite routes.</li>
+            </ul>
+        </div>
+        <p>
+            EasyBus is committed to revolutionizing bus travel by providing an efficient, reliable, and enjoyable experience. We invite you to be part of our journey and discover a new way to travel by bus. Thank you for choosing EasyBus – your travel made easy!
+        </p>
+    </div>
+</body>
+</html>
+
+
+
+
+
+/*HELP. HTML*/
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help/Login Modal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #3b8ef3, #8f4bcf);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .modal {
+            width: 400px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        .header {
+            background-color: #335cff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content h3 {
+            color: #3352ff;
+            font-size: 18px;
+            margin: 0;
+        }
+        .content p {
+            color: #333;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        .content .login-section {
+            margin-top: 20px;
+        }
+        .content .login-section input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .content .login-section button {
+            width: 100%;
+            padding: 10px;
+            background-color: #3352ff;
+            color: #fff;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .content .login-section button:hover {
+            background-color: #2b5ee0;
+        }
+        .content .divider {
+            margin: 20px 0;
+            text-align: center;
+            color: #aaa;
+        }
+        .content .google-login {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            color: #333;
+            font-size: 16px;
+        }
+        .content .google-login img {
+            width: 20px;
+            margin-right: 8px;
+        }
+        .footer {
+            text-align: center;
+            padding: 15px;
+            font-size: 12px;
+            color: #777;
+            border-top: 1px solid #eee;
+        }
+        .footer a {
+            color: #3392ff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="modal">
+        <div class="header">
+            Login to Easybus
+        </div>
+        <div class="content">
+            <h3>Happy to Help</h3>
+            <p>24/7 chat support for faster query resolution</p>
+            <p>- Login Bookings - Enter Account Mobile Number<br>- Guest Booking - Enter Booking Mobile Number</p>
+            
+            <div class="login-section">
+                <input type="text" placeholder="Enter Mobile Number" />
+                <button>Login</button>
+            </div>
+            
+            <div class="divider">Or Continue With</div>
+            
+            <div class="google-login">
+                <img src="google logo.png" style="height: 50px; width: 60px;" alt="Google logo" />
+                Sign in with Google
+            </div>
+        </div>
+        <div class="footer">
+            By logging in, I understand & agree to AbhiBus <a href="#">terms of use</a> & <a href="#">privacy policy</a>.
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+/*LOGIN .HTML*/
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        /* Basic reset and body styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #3b8ef3, #8f4bcf);
+        }
+
+        /* Login form container styling */
+        .login-container {
+            background: #fff;
+            padding: 40px 20px;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .login-container h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .avatar {
+            width: 80px;
+            height: 80px;
+            background: #ddd;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+        }
+
+        /* Input styling */
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+            color: #333;
+        }
+
+        /* Sign in button with gradient background */
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            background: linear-gradient(90deg, #3b8ef3, #8f4bcf);
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .login-container button:hover {
+            background: linear-gradient(90deg, #8f4bcf, #3b8ef3);
+        }
+
+        /* Additional options styling */
+        .login-container .options {
+            margin-top: 15px;
+            font-size: 12px;
+            color: #666;
+        }
+
+        .login-container .options a {
+            color: #3b8ef3;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+        .login-container .options a:hover {
+            text-decoration: underline;
+        }
+
+        /* Checkbox styling */
+        .login-container .checkbox {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            margin: 10px 0;
+            font-size: 12px;
+        }
+
+        .login-container .checkbox input {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <div class="avatar"></div>
+        <form>
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Sign In</button>
+            <div class="checkbox">
+                <input type="checkbox" id="keep-signed-in">
+                <label for="keep-signed-in">Keep me signed in</label>
+            </div>
+            <div class="options">
+                <a href="#">Forgot password</a> | <a href="#">Create an account</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+/*SIGN .HTML*/
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Easybus login</title>
+  <link rel="stylesheet" href="sign in.css">
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-box">
+      <h2>Sign in to Easybus</h2>
+      <button class="btn google-btn"> <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Logo_2013_Google.png" alt="Google Icon"> Sign in with Google</button>
+      <button class="btn apple-btn"> <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple Icon"> Sign in with Apple</button>
+      <p class="divider">Or</p>
+      <input type="text" class="input-field" placeholder="Phone, email or username">
+      <button class="btn next-btn">Next</button>
+      <a href="#" class="forgot-link">Forgot password?</a>
+      <p>Don't have an account? <a href="#" class="signup-link">Sign in</a></p>
+    </div>
+  </div>
+
+  <script src="sign in.js"></script>
+</body>
+</html>
+
+
+
+
+/*SIGN .CSS*/
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #3b8ef3, #8f4bcf);
+    font-family: Arial, sans-serif;
+  }
+  
+  .login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-box {
+    background-color: white;
+    padding: 2rem;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .logo {
+    width: 40px;
+    margin-bottom: 1rem;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .google-btn {
+    background-color: #fcfbfb;
+    border: 1px solid #d9d1d1;
+  }
+  
+  .apple-btn {
+    background-color: rgb(255, 254, 254);
+    border: 1px solid #d9d1d1;
+  }
+  
+  .google-btn img,
+  .apple-btn img {
+    width: 20px;
+    margin-right: 8px;
+  }
+  
+  .divider {
+    margin: 10px 0;
+    color: #606060;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+  }
+  
+  .next-btn {
+    background-color: #1da1f2;
+    color: white;
+  }
+  
+  .forgot-link,
+  .signup-link {
+    font-size: 14px;
+    color: #1da1f2;
+    text-decoration: none;
+  }
+  
+  .signup-link {
+    font-weight: bold;
+  }
+  
+  .forgot-link:hover,
+  .signup-link:hover {
+    text-decoration: underline;
+  }
+
+
+/*SIGN .JS*/
+
+
+// Add any functionality as needed, e.g., form submission handling
+document.querySelector('.next-btn').addEventListener('click', () => {
+    alert('Next button clicked');
+  });
+
+
+/*TICKET BOOKING PAGE HTML*/
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easybook Bus Ticketing</title>
+    <link rel="stylesheet" href="ticket booking page.css">
+</head>
+
+<body>
+    <div>
+        <nav>
+            <div class="logo">
+              <h1>Easybus.com</h1>
+            </div>
+            <div class="links">
+              <div class="link" data-aos="fade-up" data-aos-duration="1200">
+                <a href="homepage.html" style="text-decoration: none;">Home</a>
+              </div>
+              <div
+                class="link"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+                data-aos-delay="100"
+              >
+                <a href="about.html" style="text-decoration: none;">About</a>
+              </div>
+              <div
+                class="link"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+                data-aos-delay="200"
+              >
+                <!-- <a href="" style="text-decoration: none;">Recently booked</a>
+              </div>
+              <div
+                class="link"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+                data-aos-delay="400"
+              > -->
+              
+                <a href="help page.html" style="text-decoration: none;">Help</a>
+              </div>
+            </div>
+            <div class="buttons">
+              <a href="login.html"><button id="b1"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+                data-aos-delay="800"
+              >
+                Login</button>
+                </a>
+              
+              <a href="sign in .html"><button id="b1"
+                data-aos="fade-up"
+                data-aos-duration="2000"
+                data-aos-delay="1800"
+              >
+                Sign in
+              </button></a>
+            </div>
+          </nav>
+        <section>
+
+            <div class="book-tickets-section">
+                <h2>Book Bus Tickets</h2>
+                <form>
+                    <div class="form-group">
+                        <input type="radio" name="tripType" value="round-trip" checked> Round Trip
+                        <input type="radio" name="tripType" value="one-way"> 1 Way Transfer
+                    </div>
+
+                    <div class="form-group">
+                        <label>Depart From:</label>
+                        <input type="text" placeholder="Enter a city/town">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Arrive To:</label>
+                        <input type="text" placeholder="Enter a city/town">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Departure Date & Time:</label>
+                        <input type="date">
+                        <input type="time">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Return Date & Time:</label>
+                        <input type="date">
+                        <input type="time">
+                    </div>
+                    <button id="b2" type="submit">Search Your Trip</button>
+                </form>
+                <!-- <p><a href="#">[Mobile Version]</a></p> -->
+            </div>            
+    </div>
+
+    <script src="istockphoto-614316294-612x612.jpg"></script>
+</body>
+
+</html>
+
+
+
+/*TICKET BOOKING PAGE .CSS*/
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding:8px;
+   background-image: url(background.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+#name{
+    text-decoration:none;
+    color: white;
+    text-shadow: 0 0 7px;
+
+}
+.logo h1{
+    font-size: 3rem;
+    text-shadow: 0 0 7px white;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+nav .logo{
+    font-size: 1.5rem;
+}
+
+nav .links {
+    display: flex;
+}
+
+nav .links a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 10px;
+}
+
+
+
+
+nav .buttons{
+    width: 250px;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .buttons button{
+    margin: 0 5px;
+    width: 60px;
+    height: 5vh;
+    
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: white;
+    
+    transition: 0.2s linear;
+}
+
+.buttons button:hover{
+    
+    background-color: transparent;
+    
+    
+}
+
+section{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links{
+    text-align: left;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+header .logo img {
+    max-width: 150px;
+}
+
+header .contact-info p {
+    margin: 0;
+    text-align: right;
+}
+
+/* Navigation */
+nav {
+    
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Booking Section */
+.book-tickets-section {
+    padding: 20px;
+    background-color:rgb(9, 141, 248);
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+
+.book-tickets-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+#b1{
+    background-color: #0f66d8;
+    height: 60px;
+    width: 100px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 30px;
+}
+#b2{
+    background-color: #0f66d8;
+    height: 60px;
+    width: 150px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: rgb(10, 133, 10);
+}
+
+/* Promotion Section */
+.promotion-section {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.promotion-section h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.promotion-section p {
+    font-size: 16px;
+    color: #555;
+}
+
+.promotion-section img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgb(34, 233, 34);
+    margin-top: 20px;
+}
+
+
